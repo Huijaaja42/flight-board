@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Live Flights</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./index.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Live Flights</h1>
+            <h1 id="time"></h1>
+        </header>
+        <main>
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col" class="text-center">Pilot ID</th>
+                        <th scope="col" class="text-center">Callsign</th>
+                        <th scope="col" class="text-center">Flight Number</th>
+                        <th scope="col" class="text-center">Destination</th>
+                        <th scope="col" class="text-center">Estimated</th>
+                        <th scope="col" class="text-center">Network</th>
+                    </tr>
+                </thead>
+                <tbody id="flights">
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

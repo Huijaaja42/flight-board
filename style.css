@@ -1,0 +1,18 @@
+header {
+	background: #F3BA00;
+	height: 100px;
+	width: 100%;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    line-height: 100px;
+    padding: 0 40px;
+    display: inline-block;
+}
+
+header #time {
+    float: right;
+    margin-bottom: 0;
+}
